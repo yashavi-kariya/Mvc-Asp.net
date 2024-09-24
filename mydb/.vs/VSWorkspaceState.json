@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\mydb",
+    "\\mydb\\Controllers",
+    "\\mydb\\Views",
+    "\\mydb\\Views\\Home"
+  ],
+  "SelectedNode": "\\mydb\\Controllers\\HomeController.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "registration";
+}
+
+<h2>registration</h2>
+
+<h2>Index</h2>
+<h1>Registration Form</h1>
+<hr />
+<form>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">username</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">confimation password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">firstname</label>
+        <input type="firstname" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">lastname</label>
+        <input type="email" class="form-control">
+    </div>
+    <label class="form-label">city</label>
+    <select class="form-select form-select-lg mb-3">
+        <option selected>select city</option>
+        <option value="1">rajkot</option>
+        <option value="2">surat</option>
+        <option value="3">baroda</option>
+    </select>
+    <div class="mb-3">
+        <label class="form-label">email</label>
+        <input type="email" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

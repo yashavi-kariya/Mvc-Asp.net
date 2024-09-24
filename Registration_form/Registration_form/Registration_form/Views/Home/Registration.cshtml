@@ -1,0 +1,33 @@
+﻿<h2>Registration</h2>
+@{
+    List<SelectListItem> obj = new List<SelectListItem>()
+    {
+        new SelectListItem(){Text="Rajkot",Value="1"},
+        new SelectListItem(){Text="surat",Value="2",Selected=true},
+        new SelectListItem(){Text="baroda",Value="3"}
+    };
+}
+
+<h2>Registration</h2>
+
+@using (Html.BeginForm("Registration", "Home", FormMethod.Post))
+{
+    <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+    @Html.TextBox("fname", "", new { @class = "form-control " })
+    <br />
+    <label for="lname" class="col-sm-2 col-form-label">Last Name</label>
+    @Html.TextBox("lname", "", new { @class = "form-control " })
+    <br />
+    <label for="add" class="col-sm-2 col-form-label">Address</label>
+    @Html.TextArea("add", "", new { @class = "form-control" })
+    <br />
+    <label for="add">Male</label>
+    @Html.RadioButton("Gender", "Male")
+
+    <label for="add">Female</label>
+    @Html.RadioButton("Gender", "Female")<br/>
+
+    @Html.DropDownList("city", "obj")
+    <input type="submit" value="submit" name="submit"/> 
+
+}

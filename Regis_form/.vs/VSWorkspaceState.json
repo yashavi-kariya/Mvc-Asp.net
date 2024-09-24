@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Regis_form",
+    "\\Regis_form\\Regis_form",
+    "\\Regis_form\\Regis_form\\Controllers",
+    "\\Regis_form\\Regis_form\\Models",
+    "\\Regis_form\\Regis_form\\Views",
+    "\\Regis_form\\Regis_form\\Views\\Home",
+    "\\Regis_form\\Regis_form\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Regis_form\\Regis_form\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

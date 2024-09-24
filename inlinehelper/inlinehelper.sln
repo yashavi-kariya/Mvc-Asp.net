@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inlinehelper", "inlinehelper\inlinehelper.csproj", "{4E2BBE1D-F3A7-4956-AC3A-0046E5317454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2BBE1D-F3A7-4956-AC3A-0046E5317454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2BBE1D-F3A7-4956-AC3A-0046E5317454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2BBE1D-F3A7-4956-AC3A-0046E5317454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2BBE1D-F3A7-4956-AC3A-0046E5317454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9EB575D-A0CE-423B-8F66-54E3C8CE270A}
+	EndGlobalSection
+EndGlobal
